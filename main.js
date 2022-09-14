@@ -1,11 +1,11 @@
 addEventListener("DOMContentLoaded", ()=>{
-// 12. Programa que muestre el pago de una llamada telefónica sabiendo que cada minuto cuesta $355
-// pesos y un IVA de 20%
+// 13. Realice un algoritmo que a partir de proporcionarle la velocidad de un automóvil expresada en
+//kilómetros por hora, proporcione la velocidad en metros por segundos.
 
-let llama = Number(prompt("Ingrese el tiempo de la llamada telefonica"));
-let min= 355*llama;
-let iva= min*0.20;
-let cost= min+iva;
-console.log(`El costo de la llamda telefonica sin el IVA es: ${min}`);
-console.log(`El costo de la llamda telefonica mas el Iva es: ${cost}`);
+let vel = Number(prompt("Ingrese la velocidad del automovil en kilometros: "))
+let h = Number(prompt("Ingrese el tiempo(en horas) en que recorrio los kilometros: "))
+let Velocidad=vel*1000;
+let sg=(h*60*60);
+console.log(`La velocidad en metros por sg es: ${Velocidad}`);
+console.log(`Los segundos son: ${sg}`);
 })
