@@ -1,10 +1,13 @@
 addEventListener("DOMContentLoaded", ()=>{
-// 18. Calcular el sueldo de un empleado dados como datos de entrada: el nombre, hrs. De trabajo y el pago
-// en hora. Pagohora=15300
+// 19. Un estudiante realiza cuatro exámenes. Realizar el pseudocódigo que representen el algoritmo
+// correspondiente para obtener el promedio de las calificaciones obtenidas. las calificaciones van 1 a 5
+// puntos.
 
+let examen1= Number(prompt("Ingrese la nota del primer examen: "));
+let examen2= Number(prompt("Ingrese la nota del segundo examen: "));
+let examen3= Number(prompt("Ingrese la nota del tercer examen: "));
+let examen4= Number(prompt("Ingrese la nota del cuarto examen: "));
+let prom = (examen1+examen2+examen3+examen4)/4;
+console.log(`El promedio de las calificaciones es: ${prom}`);
 
-let nombre =prompt("Ingrese su nombre: ");
-let hrs =Number(prompt("Ingrese las horas trabajadas: "));
-let pago= hrs*15300;
-console.log(`EL empleado ${nombre} trabajo ${hrs} horas y su pago es ${pago} `);
 })
