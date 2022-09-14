@@ -1,13 +1,11 @@
 addEventListener("DOMContentLoaded", ()=>{
-// 9. Escribir un programa que calcule el área y el volumen de un cilindro:
- //A = (2 * (PI * r˄2)) + ((2 * PI * r) * h)
- //V = (PI * r2) * h
+// 10. Escribir un algoritmo que permita obtener las raíces reales de la ecuación de segundo grado: A * x2 +
+//b * x + c, siendo X un valor constante.
 
-let radio = Number(prompt("Ingrese el radio del cilindro "));
-let h = Number(prompt("Ingrese la altura del cilindro "));
-let area=(2*(Math.PI * Math.pow(radio, 2)) + (2 * Math.PI * radio) * h);
-let volu=(Math.PI * Math.pow(radio, 2)) * h;
-console.log(`El area de un cilindro es: ${area}`);
-console.log(`El volumen de un cilindro es: ${volu}`);
-
+let a = Number(prompt("Ingrese A "));
+let x = Number(prompt("Ingrese X "));
+let b = Number(prompt("Ingrese B "));
+let c = Number(prompt("Ingrese c "));
+let ecua= a * (x*2) + b * x + c;
+console.log(`El Resultado de la ecuacion es: ${ecua}`);
 })
